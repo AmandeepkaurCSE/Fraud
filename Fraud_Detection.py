@@ -4,7 +4,7 @@ from streamlit_option_menu import option_menu
 
 
 #loading the model 
-with open("C:\\Users\\AMANDEEP KAUR\\Desktop\\Credit Card\\Fraud_Detection.sav", 'rb') as file:
+with open("Fraud_Detection.sav", 'rb') as file:
     fraud_detection_model = pickle.load(file)
 
 #creating the side bar
